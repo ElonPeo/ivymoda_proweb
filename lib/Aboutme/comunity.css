@@ -1,0 +1,131 @@
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 100%;
+}
+.breadcrumb__list {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 16px 0;
+    border-bottom: 1px solid #f7f8f9;
+}
+
+
+.breadcrumb__link {
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+
+.title-section {
+    font-size: 80px;
+    line-height: 98px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+}
+a {
+    text-decoration: none;
+    color: #373737;
+}
+.e-magazine-story-wrapper {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    border: 1px solid #e7e8e9;
+    grid-gap: 60px;
+    border-radius: 80px 0px;
+    overflow: hidden;
+    height: 600px;
+}
+
+.e-magazine-story-wrapper .content {
+    padding: 30px;
+}
+
+.e-magazine-story-wrapper .content h2 {
+    color: #000; 
+    font-size: 38px;
+    line-height: 46px;
+    margin-bottom: 24px;
+    letter-spacing: -2px;
+}
+
+
+.e-magazine-story-wrapper .content p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #57585a;
+    margin-bottom: 32px;
+}
+
+.e-magazine-story-wrapper .content .time {
+    font-size: 18px;
+    line-height: 23px;
+    color: #939598;
+}
+
+.e-magazine-story-wrapper .action {
+    margin-top: 80px;
+}
+
+.e-magazine-story-wrapper .action .btn-link {
+    font-size: 16px;
+    color: #3e3e3f;
+    display: inline-flex;
+    text-decoration: underline;
+}
+
+.e-magazine-story-wrapper .image {
+    border-radius: 80px 0px;
+    overflow: hidden;
+}
+
+.e-magazine-story-wrapper .image img {
+    width: 100%;
+    height: 100%;
+}
+
+.e-magazine-new-section {
+    margin-top: 64px;
+}
+
+.e-magazine-new-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.e-magazine-new-wrapper .e-magazine-new-item {
+    display: block;
+}
+
+.e-magazine-new-wrapper .e-magazine-new-item .img {
+    overflow: hidden;
+    max-height: 802px; 
+}
+
+.e-magazine-new-wrapper .e-magazine-new-item .img img {
+    width: 100%;
+    height: 100%;
+}
+
+.e-magazine-new-wrapper .e-magazine-new-item .desc .title {
+    color: #221f20;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+.e-magazine-new-wrapper .e-magazine-new-item .desc .time {
+    font-size: 14px;
+    color: #939598;
+    margin-top: 20px;
+}
